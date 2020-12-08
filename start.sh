@@ -1,0 +1,1 @@
+screen -S bascrims ./cod4x18_dedrun +set dedicated 2 +set sv_authorizemode 0 +set sv_maxclients 24 +set rcon_password opulcod4 +set sv_punkbuster 1 +set net_port 28960 +set fs_basepath /root/cod4/cod4 +set fs_homepath /root/cod4/cod4 +set fs_game mods/Ravana +exec server.cfg +map_rotate
